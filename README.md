@@ -13,7 +13,12 @@ The "Framingham" dataset is publically available on the Kaggle website, and it i
 - Resampled the imbalanced dataset by oversampling the positive cases.
 - Selected columns that will probably be important to predict heart disease.
 - Created training and testing sets (using 60% of the data for the training and reminder for testing) and scaled the data using MinMaxScaler.
-- Built 5 different machine learning models to predict TenYearCHD: - - Logistic Regression - 67.56% Accuracy - kNN Classification - 89.98% Accuracy - Random Forest Classification - 90.39% Accuracy - Decision Tree Classification - 86.66% Accuracy - Gradient Boosting Classification - 71.46% Accuracy
+- Built 5 different machine learning models to predict TenYearCHD: 
+                                      * Logistic Regression - 67.56% Accuracy 
+- kNN Classification - 89.98% Accuracy 
+- Random Forest Classification - 90.39% Accuracy 
+- Decision Tree Classification - 86.66% Accuracy 
+- Gradient Boosting Classification - 71.46% Accuracy
 - Hyperparameter tuned the RandomForestClassification - 95.77% and GradientBoostingClassification - 95.21%.
 - Evaluated each model (f1 score, Accuracy, Precision ,Recall and Confusion Matrix) and plotted a graph for the false positive rate and true positive rate for each model.
 - Ensembled the four best models using Stacking technique to further increase the accuracy of the model and achieved an accuracy score of 96.17%
