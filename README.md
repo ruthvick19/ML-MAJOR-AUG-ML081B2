@@ -7,8 +7,8 @@ The "Framingham" dataset is publically available on the Kaggle website, and it i
 
 # Objective: To build a classification model that predicts Ten Year Coronary Heart Disease in a subject.
 # I have performed the following steps:
-Read the file and displayed its columns.
-Handled missing values, Outliers and Duplicate Data.
+- Read the file and displayed its columns.
+- Handled missing values, Outliers and Duplicate Data.
 Calculated basic statistics of the data (count, mean, std, etc), did exploratory analysis and described my observations.
 Resampled the imbalanced dataset by oversampling the positive cases.
 Selected columns that will probably be important to predict heart disease.
