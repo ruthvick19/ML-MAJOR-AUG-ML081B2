@@ -14,7 +14,7 @@ The "Framingham" dataset is publically available on the Kaggle website, and it i
 - Selected columns that will probably be important to predict heart disease.
 - Created training and testing sets (using 60% of the data for the training and reminder for testing) and scaled the data using MinMaxScaler.
 - Built 5 different machine learning models to predict TenYearCHD:
-                  Logistic Regression - 67.56% Accuracy
+- - Logistic Regression - 67.56% Accuracy
                   kNN Classification - 89.98% Accuracy
 Random Forest Classification - 90.39% Accuracy
 Decision Tree Classification - 86.66% Accuracy
